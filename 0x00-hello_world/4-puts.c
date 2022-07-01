@@ -2,7 +2,7 @@
 /**
  *  main - entry point
  *
- *  return: always 0 (Success)
+ *  Return: 0 aftrer printing function
  */
 int main(void)
 {puts("\"Programming is like building a multilingual puzzle");
