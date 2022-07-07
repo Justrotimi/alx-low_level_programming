@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _abs - print absolute value of an integer
- * @p; input number as integer
+ * @p: input number as integer
  *
  * Return: absolute integer
  */
