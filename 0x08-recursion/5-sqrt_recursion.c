@@ -1,0 +1,21 @@
+#include "main.h"
+/**
+ * _sqrt - function that returns the natural square root of a number.
+ * @n: squared number
+ * @s_root: square root
+ *
+ * Return: _sqrt
+ */
+int _sqrt(int n, int s_root)
+{
+	if (s_root * s_root == n)
+	{
+		return (s_root);
+	}
+	if (s_root == n / 2)
+	{
+		return (-1);
+	}
+
+	return (_sqrt(n, s_root + 1));
+}
